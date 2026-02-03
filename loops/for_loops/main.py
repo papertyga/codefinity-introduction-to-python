@@ -1,7 +1,10 @@
-prices = [12.99, 8.50, 15.75, 23.00, 7.25]
+grocery = {
+    "Milk": 2.99,
+    "Eggs": 3.49,
+    "Bread": 1.99,
+    "Apples": 0.89
+}
 
-# Write your code here
-total = 0
-for price in prices:
-    total = total + price
-    print(total)
+for item, price in grocery.items():
+    print(item, price)
+    
